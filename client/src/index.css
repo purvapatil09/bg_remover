@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Carter+One&family=Catamaran:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+.slider{
+    -webkit-appearance: none;
+    height: 100%;
+    background: transparent;
+}
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 30px;
+    min-height: 30px;
+    background: url(/slide_icon.svg) no-repeat;
+    background-size: cover;
+}
+.bg-layer{
+    background: url(/bg_layer.png);
+    height: 90%;
+}
